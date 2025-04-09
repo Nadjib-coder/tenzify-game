@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  min-width: calc(100vw - 30px);
+  min-height: calc(100vh - 30px);
+  margin: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Start Die buttom style */
+.die {
+  background-color: white;
+  padding: 5px;
+  margin: 4px;
+}
+
+.die.held {
+  background-color: #59E391;
+}
+/* End Die buttom style */

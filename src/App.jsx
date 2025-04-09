@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
 
 export default function App() {
   return (
-    <div className="black-container">
-      <div className="white-container"></div>
+    <div className="container">
+      <Header />
+      <Main />
     </div>
   );
 }
