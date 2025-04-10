@@ -6,6 +6,8 @@
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -19,6 +21,13 @@ header h1 {
 header p {
   font-size: 1.2rem;
 }
+
+
+/* start Main sectin */
+main {
+  flex: 1;
+}
+/* end Main sectin */
 
 /* Start Die buttom style */
 
@@ -55,5 +64,15 @@ header p {
 .roll-dice:hover {
   background-color: #664444;
   color: #fff;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  text-align: center;
 }
 /* End Die buttom style */
