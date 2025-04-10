@@ -1,15 +1,15 @@
-body {
-  background-color: #fff;
-}
-
 .container {
-  min-width: calc(100vw - 30px);
-  min-height: calc(100vh - 30px);
-  margin: 15px;
+  min-width: calc(100vw - 34px);
+  min-height: calc(100vh - 34px);
+  margin: 17px;
   background-color: #fff;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -21,13 +21,39 @@ header p {
 }
 
 /* Start Die buttom style */
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 15px;
+  max-width: 390px;
+  margin: 20px auto;
+}
+
 .die {
   background-color: white;
-  padding: 5px;
-  margin: 4px;
+  padding: 10px;
+  border: 3px solid #664444;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #664444;
+  font-size: 1.4rem;
 }
 
 .die.held {
   background-color: #59E391;
+}
+
+.roll-dice {
+  margin-bottom: 30px;
+  padding: 8px 12px;
+  min-width: 100px;
+  border: 1px solid #664444;
+  border-radius: 5px;
+  letter-spacing: 1.2px;
+}
+.roll-dice:hover {
+  background-color: #664444;
+  color: #fff;
 }
 /* End Die buttom style */
